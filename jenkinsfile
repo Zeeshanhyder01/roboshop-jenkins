@@ -1,9 +1,10 @@
 pipeline {
-    agents any
+    agent any
     stages{
-        stage('Create Jobs')
-          steps{
-            sh 'ansible-playbook create-jobs.yml'
-          }
+        stage('Create Jobs'){
+            steps {
+                sh 'ansible-playbook create-jobs.yml'
+            }
         }
     }
+}
