@@ -6,5 +6,5 @@
     user: admin
     password : admin123
     loop :
-      - { repoName: "cart", componentName: "cart" }
+      - { item.repoName: "cart", item.componentName: "cart" }
 
