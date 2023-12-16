@@ -1,8 +1,8 @@
-#folders:
-#  - { name: "CI-Pipeline ", description: "CI Pipeline for All roboshop Components" }
+folders:
+  - {name: "CI-Pipeline ", description: "CI Pipeline for All roboshop Components"}
 
-#pipelineJobs:
-#  - { jobName: "cart", folderName: "CI-Pipeline/ " , repoName: "cart", componentName: "cart" }
-#
 pipelineJobs:
-  - { jobName: "cart", repoName: "cart", componentName: "cart" }
+  - { jobName: "cart", folderName: "CI-Pipeline/ " , repoName: "cart", componentName: "cart" }
+#
+#pipelineJobs:
+#  - { jobName: "cart", repoName: "cart", componentName: "cart" }
