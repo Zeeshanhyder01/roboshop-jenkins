@@ -1,7 +1,7 @@
 - name: Create Folders in jenkins
   community.general.jenkins_job:
-    config: "{{ lookup('template', '/tmp/folder.xml') }}"
-    name: "{{item.folderName}}{{item.jobName}}"
+    config: "{{ lookup('template', 'folder.xml') }}"
+    name: "{{item.name}}"
     url: http://172.31.32.113:8080
     user: "admin"
     token : "111cd34d1733a1c718eb1aeb4ee9a6574a"
@@ -9,7 +9,7 @@
 
 - name: Create a jenkins job using the token
   community.general.jenkins_job:
-    config: "{{ lookup('template', '/tmp/pipeline.xml') }}"
+    config: "{{ lookup('template', 'pipeline.xml') }}"
     name: "{{item.folderName}}{{item.jobName}}"
     url: http://172.31.32.113:8080
     user: "admin"
