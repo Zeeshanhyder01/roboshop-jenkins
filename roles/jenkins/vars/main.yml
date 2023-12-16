@@ -1,5 +1,5 @@
 folders:
-  - { name: "CI-PIPELINE ", description: "CI Pipeline for All RoboShop Components" }
+  - { name: "CI-Pipeline ", description: "CI Pipeline for All RoboShop Components" }
 
 pipelineJobs:
   - { repoName: "cart", folderName: " " , componentName: "cart" }
