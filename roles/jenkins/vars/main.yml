@@ -8,6 +8,4 @@ pipelineJobs:
   - { jobName: "shipping", folderName: "CI-Pipelines/",  repoName: "shipping", componentName: "shipping" }
   - { jobName: "payment", folderName: "CI-Pipelines/",  repoName: "payment", componentName: "payment" }
   - { jobName: "frontend", folderName: "CI-Pipelines/",  repoName: "frontend", componentName: "frontend" }
-#
-#pipelineJobs:
-#  - { jobName: "cart", repoName: "cart", componentName: "cart" }
+
