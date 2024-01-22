@@ -39,6 +39,7 @@
                     <properties class="empty-list"/>
                 </strategy>
                 <buildStrategies>
+                    <jenkins.branch.buildstrategies.basic.AllBranchBuildStrategyImpl plugin="basic-branch-build-strategies@81.v05e333931c7d">
                     <jenkins.branch.buildstrategies.basic.TagBuildStrategyImpl plugin="basic-branch-build-strategies@81.v05e333931c7d">
                         <atLeastMillis>-1</atLeastMillis>
                         <atMostMillis>604800000</atMostMillis>
